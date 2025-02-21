@@ -483,11 +483,14 @@ body {
 }
 
 .footer-form-btn {
-  position: relative;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   background: #4d5ae5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   font-weight: 500;
   line-height: 1.5;
@@ -498,8 +501,7 @@ body {
 }
 
 .icon-send {
-  position: absolute;
-  right: 24px;
+  margin-left: 16px;
 }
 
 /* modal window */
